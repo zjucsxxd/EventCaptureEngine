@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DLCRMainClass</class>
+ <widget class="QMainWindow" name="DLCRMainClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>747</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ELEMENTAR</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_7">
+    <item row="0" column="0">
+     <widget class="QFrame" name="ADJDLogo">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabEvents">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="tabsClosable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="tabEditor">
+          <attribute name="title">
+           <string>Active Case Notes</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="EventEditor" name="activeEditor" native="true"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tabRetriever">
+          <attribute name="title">
+           <string>Retrieved Case Notes</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="EventRetriever" name="activeRetriever" native="true"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QFrame" name="StatusFrame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>795</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>80</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="tearOffEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Session</string>
+    </property>
+    <addaction name="actionNew_OpenCase"/>
+    <addaction name="actionStop_Case"/>
+    <addaction name="actionPause_Resume"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_Notes"/>
+    <addaction name="actionScheduler"/>
+    <addaction name="actionSearch"/>
+    <addaction name="actionRetrieve"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit_Recorder"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="tearOffEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionLog_Editor"/>
+    <addaction name="actionRecorder"/>
+    <addaction name="actionEasy_Notes"/>
+    <addaction name="actionAdvanced_Search"/>
+    <addaction name="separator"/>
+    <addaction name="actionLogin_History"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="tearOffEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="actionOnline_Update"/>
+    <addaction name="actionOnline_Support"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_DLCR"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="tearOffEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionFTP_Uploader"/>
+    <addaction name="actionBackup_Utility"/>
+    <addaction name="actionDisk_Analizer"/>
+   </widget>
+   <widget class="QMenu" name="menuLogNotes">
+    <property name="title">
+     <string>LogNotes</string>
+    </property>
+    <widget class="QMenu" name="menuExportNotes">
+     <property name="title">
+      <string>Export</string>
+     </property>
+     <addaction name="actionToPDF"/>
+     <addaction name="actionToHTML"/>
+     <addaction name="actionToWORDDOC"/>
+     <addaction name="actionToCSV"/>
+    </widget>
+    <widget class="QMenu" name="menuInsert_Row">
+     <property name="title">
+      <string>Insert Row</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../recorder.qrc">
+       <normaloff>:/Recorder/Resources/InsertRow.jpg</normaloff>:/Recorder/Resources/InsertRow.jpg</iconset>
+     </property>
+     <addaction name="actionAfter_Row"/>
+     <addaction name="actionBefore_Row"/>
+    </widget>
+    <widget class="QMenu" name="menuFormat_Style">
+     <property name="title">
+      <string>Format Style</string>
+     </property>
+     <addaction name="actionBold_Format"/>
+     <addaction name="actionItalics_Format"/>
+     <addaction name="actionUnderLine"/>
+    </widget>
+    <addaction name="actionNew_Notes"/>
+    <addaction name="menuInsert_Row"/>
+    <addaction name="actionDelete_Row"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport"/>
+    <addaction name="menuExportNotes"/>
+    <addaction name="separator"/>
+    <addaction name="menuFormat_Style"/>
+    <addaction name="actionText_Color"/>
+    <addaction name="actionText_Highlight"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrintNotes"/>
+    <addaction name="actionPrint_Preview"/>
+    <addaction name="actionSpellChecker"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actionGoto"/>
+    <addaction name="actionFindNotes"/>
+    <addaction name="actionReplace"/>
+    <addaction name="actionInsert"/>
+   </widget>
+   <widget class="QMenu" name="menuReference">
+    <property name="title">
+     <string>Reference</string>
+    </property>
+    <addaction name="actionFiles"/>
+    <addaction name="actionImages"/>
+    <addaction name="separator"/>
+    <addaction name="actionBooks"/>
+    <addaction name="actionLinks"/>
+    <addaction name="actionSimilar_Sessions"/>
+    <addaction name="actionRequest_Lognotes"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <widget class="QMenu" name="menuLanguage_Preference">
+     <property name="title">
+      <string>Language Preference</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../recorder.qrc">
+       <normaloff>:/Recorder/Resources/Languages.jpg</normaloff>:/Recorder/Resources/Languages.jpg</iconset>
+     </property>
+    </widget>
+    <addaction name="menuLanguage_Preference"/>
+    <addaction name="separator"/>
+    <addaction name="actionManage_Language"/>
+    <addaction name="actionManage_Dictionary"/>
+    <addaction name="separator"/>
+    <addaction name="actionRecorderSettings"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuLogNotes"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuReference"/>
+   <addaction name="menuView"/>
+   <addaction name="menuOptions"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="actionNew_OpenCase"/>
+   <addaction name="separator"/>
+   <addaction name="actionStop_Case"/>
+   <addaction name="separator"/>
+   <addaction name="actionPrint_Case_Log"/>
+   <addaction name="separator"/>
+   <addaction name="actionPrint_Priview"/>
+   <addaction name="separator"/>
+   <addaction name="actionAdvanced_Search"/>
+   <addaction name="separator"/>
+   <addaction name="actionAttach_File"/>
+   <addaction name="separator"/>
+   <addaction name="actionDownload_file"/>
+   <addaction name="separator"/>
+   <addaction name="actionSpell_Check_Tool"/>
+   <addaction name="separator"/>
+   <addaction name="actionRecorder"/>
+   <addaction name="separator"/>
+   <addaction name="actionEasy_Notes"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>677</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>5202</height>
+    </size>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>Recorder</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_6">
+    <layout class="QGridLayout" name="gridLayout_6">
+     <property name="margin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="1" column="1">
+      <widget class="QFrame" name="stopFrame">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>390</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>390</width>
+         <height>38</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QLabel" name="lblPositionNow">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>00:00</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="animate">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QFrame" name="controlFrame">
+       <property name="minimumSize">
+        <size>
+         <width>280</width>
+         <height>154</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>390</width>
+         <height>160</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="AudioChannelWidget" name="widget" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>100</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QFrame" name="frame_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>390</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>390</width>
+         <height>485</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame
+{
+	background-color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="VideoWid" name="recorder" native="true">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>373</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>390</width>
+            <height>649</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="actionNew_OpenCase">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/open_normal.png</normaloff>
+     <selectedon>:/Recorder/Resources/Refresh.png</selectedon>:/Recorder/Resources/open_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>New / Open</string>
+   </property>
+  </action>
+  <action name="actionStop_Case">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/2nd_normal.png</normaloff>:/Recorder/Resources/2nd_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop Case</string>
+   </property>
+  </action>
+  <action name="actionSave_Case">
+   <property name="text">
+    <string>Save Case</string>
+   </property>
+  </action>
+  <action name="actionTo_PDF">
+   <property name="text">
+    <string>To Pdf Document</string>
+   </property>
+  </action>
+  <action name="actionTO_WordDoc">
+   <property name="text">
+    <string>To Word Document</string>
+   </property>
+  </action>
+  <action name="actionTo_Html">
+   <property name="text">
+    <string>To Html Document</string>
+   </property>
+  </action>
+  <action name="actionTO_CSV">
+   <property name="text">
+    <string>To CSV File</string>
+   </property>
+  </action>
+  <action name="actionPrint_Case_Log">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/print_normal.png</normaloff>:/Recorder/Resources/print_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Notes</string>
+   </property>
+  </action>
+  <action name="actionPrint_Priview_2">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/print-perview_normal.png</normaloff>:/Recorder/Resources/print-perview_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Preview</string>
+   </property>
+  </action>
+  <action name="actionExit_Recorder">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/hibernate-session-icone-9148-48.png</normaloff>:/Recorder/Resources/hibernate-session-icone-9148-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit Recorder</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="text">
+    <string>Find</string>
+   </property>
+  </action>
+  <action name="actionFind_Next">
+   <property name="text">
+    <string>Find Next</string>
+   </property>
+  </action>
+  <action name="actionSpell_Check_Tool">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/spell_normal.png</normaloff>:/Recorder/Resources/spell_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Spell Checker</string>
+   </property>
+  </action>
+  <action name="actionEdit_Log_Notes">
+   <property name="text">
+    <string>Edit Log Notes</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionItalics">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Italics</string>
+   </property>
+  </action>
+  <action name="actionUnderline">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Underline</string>
+   </property>
+  </action>
+  <action name="actionLog_Editor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/recorder_normal.png</normaloff>:/Recorder/Resources/recorder_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Case Editor</string>
+   </property>
+  </action>
+  <action name="actionRecorder">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/screen_normal.png</normaloff>:/Recorder/Resources/screen_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Recorder</string>
+   </property>
+  </action>
+  <action name="actionLogin_History">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/History-Icon.png</normaloff>:/Recorder/Resources/History-Icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Login History</string>
+   </property>
+  </action>
+  <action name="actionAttach_File">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/attach_normal.png</normaloff>:/Recorder/Resources/attach_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+   <property name="toolTip">
+    <string>Attach</string>
+   </property>
+  </action>
+  <action name="actionDownload_file">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/download.png</normaloff>:/Recorder/Resources/download.png</iconset>
+   </property>
+   <property name="text">
+    <string>Download file</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/help-desk-icon.png</normaloff>:/Recorder/Resources/help-desk-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionOnline_Update">
+   <property name="text">
+    <string>Online Update</string>
+   </property>
+  </action>
+  <action name="actionOnline_Support">
+   <property name="text">
+    <string>Online Support</string>
+   </property>
+  </action>
+  <action name="actionAbout_DLCR">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/FAQ-icon.png</normaloff>:/Recorder/Resources/FAQ-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>About TAPE</string>
+   </property>
+  </action>
+  <action name="actionSpell_Checker">
+   <property name="text">
+    <string>Spell Checker</string>
+   </property>
+  </action>
+  <action name="actionFTP_Uploader">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/ftp.png</normaloff>:/Recorder/Resources/ftp.png</iconset>
+   </property>
+   <property name="text">
+    <string>FTP Manager</string>
+   </property>
+  </action>
+  <action name="actionBackup_Utility">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/CD-Drive-icon.png</normaloff>:/Recorder/Resources/CD-Drive-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>write To Disk</string>
+   </property>
+  </action>
+  <action name="actionEasy_Notes">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/4th_normal.png</normaloff>:/Recorder/Resources/4th_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Easy Notes</string>
+   </property>
+  </action>
+  <action name="actionPrint_Priview">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/print-perview_normal.png</normaloff>:/Recorder/Resources/print-perview_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Preview</string>
+   </property>
+  </action>
+  <action name="actionRetrieve">
+   <property name="text">
+    <string>Retrieve</string>
+   </property>
+  </action>
+  <action name="actionAdvanced_Search">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Start-Menu-Search-icon.png</normaloff>:/Recorder/Resources/Start-Menu-Search-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Advanced Search</string>
+   </property>
+  </action>
+  <action name="actionPause_Resume">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/pause.png</normaloff>:/Recorder/Resources/pause.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pause Case</string>
+   </property>
+  </action>
+  <action name="actionDisk_Analizer">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Disk-HD-Win-icon.png</normaloff>:/Recorder/Resources/Disk-HD-Win-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Disk Analizer</string>
+   </property>
+  </action>
+  <action name="actionRecorder_Settings">
+   <property name="text">
+    <string>Recorder Settings</string>
+   </property>
+  </action>
+  <action name="actionSchedulers">
+   <property name="text">
+    <string>Schedulers</string>
+   </property>
+  </action>
+  <action name="actionSchedulers_2">
+   <property name="text">
+    <string>Schedulers</string>
+   </property>
+  </action>
+  <action name="actionNew_Notes">
+   <property name="text">
+    <string>New Notes</string>
+   </property>
+  </action>
+  <action name="actionDelete_Row">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/DeleteRow.jpg</normaloff>:/Recorder/Resources/DeleteRow.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Row</string>
+   </property>
+  </action>
+  <action name="actionImport">
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionSpell_Checker_2">
+   <property name="text">
+    <string>Spell Checker</string>
+   </property>
+  </action>
+  <action name="actionPrintNotes">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/print_normal.png</normaloff>:/Recorder/Resources/print_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>PrintNotes</string>
+   </property>
+  </action>
+  <action name="actionPrint_Preview">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/print-perview_normal.png</normaloff>:/Recorder/Resources/print-perview_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Preview</string>
+   </property>
+  </action>
+  <action name="actionPlay">
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </action>
+  <action name="actionPause">
+   <property name="text">
+    <string>Pause</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>Stop</string>
+   </property>
+  </action>
+  <action name="actionJump_Forward">
+   <property name="text">
+    <string>Jump Forward</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/cut.jpg</normaloff>:/Recorder/Resources/cut.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/copy.jpg</normaloff>:/Recorder/Resources/copy.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/paste.jpg</normaloff>:/Recorder/Resources/paste.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionGoto">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Goto.jpg</normaloff>:/Recorder/Resources/Goto.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Goto</string>
+   </property>
+  </action>
+  <action name="actionFindNotes">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Find.jpg</normaloff>:/Recorder/Resources/Find.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Find </string>
+   </property>
+  </action>
+  <action name="actionReplace">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Replace.jpg</normaloff>:/Recorder/Resources/Replace.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Replace</string>
+   </property>
+  </action>
+  <action name="actionInsert">
+   <property name="text">
+    <string>Insert</string>
+   </property>
+  </action>
+  <action name="actionToPDF">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/file_pdf.png</normaloff>:/Recorder/Resources/file_pdf.png</iconset>
+   </property>
+   <property name="text">
+    <string>ToPDF</string>
+   </property>
+  </action>
+  <action name="actionToHTML">
+   <property name="text">
+    <string>ToHTML</string>
+   </property>
+  </action>
+  <action name="actionToWORDDOC">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/word_icon.png</normaloff>:/Recorder/Resources/word_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>ToWORDDOC</string>
+   </property>
+  </action>
+  <action name="actionToCSV">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/CSV.jpg</normaloff>:/Recorder/Resources/CSV.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>ToCSV</string>
+   </property>
+  </action>
+  <action name="actionFiles">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/ReferenceFile.jpg</normaloff>:/Recorder/Resources/ReferenceFile.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Files</string>
+   </property>
+  </action>
+  <action name="actionImages">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/ReferenceImage.png</normaloff>:/Recorder/Resources/ReferenceImage.png</iconset>
+   </property>
+   <property name="text">
+    <string>Images</string>
+   </property>
+  </action>
+  <action name="actionBooks">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Book.jpg</normaloff>:/Recorder/Resources/Book.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Books</string>
+   </property>
+  </action>
+  <action name="actionLinks">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/Link.jpg</normaloff>:/Recorder/Resources/Link.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Links</string>
+   </property>
+  </action>
+  <action name="actionSimilar_Sessions">
+   <property name="text">
+    <string>Similar Sessions</string>
+   </property>
+  </action>
+  <action name="actionRequest_Lognotes">
+   <property name="text">
+    <string>Request Lognotes</string>
+   </property>
+  </action>
+  <action name="actionManage_Dictionary">
+   <property name="text">
+    <string>Manage Dictionary</string>
+   </property>
+  </action>
+  <action name="actionRecorderSettings">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/settings.jpg</normaloff>:/Recorder/Resources/settings.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Recorder Settings</string>
+   </property>
+  </action>
+  <action name="actionSave_Notes">
+   <property name="text">
+    <string>Save Notes</string>
+   </property>
+  </action>
+  <action name="actionSpellChecker">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/spell_hover.png</normaloff>:/Recorder/Resources/spell_hover.png</iconset>
+   </property>
+   <property name="text">
+    <string>Spell Checker</string>
+   </property>
+  </action>
+  <action name="actionAdd_Language">
+   <property name="text">
+    <string>Add Language</string>
+   </property>
+  </action>
+  <action name="actionAfter_Row">
+   <property name="text">
+    <string>After Row</string>
+   </property>
+  </action>
+  <action name="actionBefore_Row">
+   <property name="text">
+    <string>Before Row</string>
+   </property>
+  </action>
+  <action name="actionBold_Format">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionItalics_Format">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Italics</string>
+   </property>
+  </action>
+  <action name="actionUnderLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>UnderLine</string>
+   </property>
+  </action>
+  <action name="actionManage_Language">
+   <property name="text">
+    <string>Manage Language</string>
+   </property>
+  </action>
+  <action name="actionCc">
+   <property name="text">
+    <string>cc</string>
+   </property>
+  </action>
+  <action name="actionScheduler">
+   <property name="icon">
+    <iconset resource="../recorder.qrc">
+     <normaloff>:/Recorder/Resources/scheduler.jpg</normaloff>:/Recorder/Resources/scheduler.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Scheduler</string>
+   </property>
+  </action>
+  <action name="actionText_Highlight">
+   <property name="text">
+    <string>Text Highlight</string>
+   </property>
+  </action>
+  <action name="actionText_Color">
+   <property name="text">
+    <string>Text Color</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>EventEditor</class>
+   <extends>QWidget</extends>
+   <header>eventeditor.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>EventRetriever</class>
+   <extends>QWidget</extends>
+   <header>eventretriever.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>VideoWid</class>
+   <extends>QWidget</extends>
+   <header>videowid.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AudioChannelWidget</class>
+   <extends>QWidget</extends>
+   <header>audiochannelwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../recorder.qrc"/>
+ </resources>
+ <connections/>
+</ui>
