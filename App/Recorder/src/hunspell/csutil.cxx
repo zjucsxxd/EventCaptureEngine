@@ -1,4 +1,4 @@
-#include "license.hunspell"
+/*Owner & Copyrights: Vance King Saxbe. A.*/#include "license.hunspell"
 #include "license.myspell"
 
 #ifndef MOZILLA_CLIENT
@@ -5528,3 +5528,4 @@ int parse_array(char * line, char ** out,
    }
    return 0;
 }
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

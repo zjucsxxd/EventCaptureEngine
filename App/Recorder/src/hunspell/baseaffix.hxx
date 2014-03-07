@@ -1,4 +1,4 @@
-#ifndef _BASEAFF_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _BASEAFF_HXX_
 #define _BASEAFF_HXX_
 
 class AffEntry
@@ -26,3 +26,4 @@ protected:
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

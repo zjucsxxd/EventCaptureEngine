@@ -1,4 +1,4 @@
-#ifndef EXPLORESESSION_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef EXPLORESESSION_H
 #define EXPLORESESSION_H
 
 #include <QDialog>
@@ -50,3 +50,4 @@ private:
 };
 
 #endif // EXPLORESESSION_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

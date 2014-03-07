@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*Owner & Copyrights: Vance King Saxbe. A.*/#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -36,3 +36,4 @@ char * FileMgr::getline() {
     if (hin && (l = hin->getline())) return strcpy(in, l);
     return NULL;
 }
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

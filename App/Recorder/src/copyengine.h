@@ -1,4 +1,4 @@
-#ifndef COPYENGINE_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef COPYENGINE_H
 #define COPYENGINE_H
 
 #include <QThread>
@@ -39,4 +39,4 @@ private:
 
 };
 
-#endif // COPYENGINE_H
+#endif // COPYENGINE_H/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

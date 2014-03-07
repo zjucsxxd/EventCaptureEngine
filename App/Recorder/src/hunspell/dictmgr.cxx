@@ -1,4 +1,4 @@
-
+/*Owner & Copyrights: Vance King Saxbe. A.*/
 /*
 *
 * Copyright (c) 2007-2008 Softnotions Technologies Pvt Ltd. All Rights Reserved
@@ -192,3 +192,4 @@ void DictMgr:: mychomp(char * s)
   if ((k > 1) && (*(s+k-2) == '\r')) *(s+k-2) = '\0';
 }
 
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

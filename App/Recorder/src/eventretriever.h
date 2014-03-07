@@ -1,4 +1,4 @@
-#ifndef EVENTRETRIEVER_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef EVENTRETRIEVER_H
 #define EVENTRETRIEVER_H
 
 #include <QWidget>
@@ -118,3 +118,4 @@ private slots:
 };
 
 #endif // EVENTRETRIEVER_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

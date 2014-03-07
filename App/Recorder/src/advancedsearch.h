@@ -1,4 +1,4 @@
-#ifndef ADVANCEDSEARCH_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef ADVANCEDSEARCH_H
 #define ADVANCEDSEARCH_H
 
 #include <QDialog>
@@ -42,3 +42,4 @@ private slots:
 };
 
 #endif // ADVANCEDSEARCH_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

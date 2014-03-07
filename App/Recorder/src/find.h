@@ -1,4 +1,4 @@
-#ifndef FIND_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef FIND_H
 #define FIND_H
 
 #include <QDialog>
@@ -23,3 +23,4 @@ private:
 };
 
 #endif // FIND_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

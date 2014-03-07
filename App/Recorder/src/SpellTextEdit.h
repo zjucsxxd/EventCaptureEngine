@@ -1,4 +1,4 @@
-
+/*Owner & Copyrights: Vance King Saxbe. A.*/
 /*
 *
 * Copyright (c) 2007-2008 Softnotions Technologies Pvt Ltd. All Rights Reserved
@@ -97,3 +97,4 @@ private:
 };
 
 #endif /*SPELLTEXTEDIT_H_*/
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

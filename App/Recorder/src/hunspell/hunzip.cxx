@@ -1,4 +1,4 @@
-#ifndef MOZILLA_CLIENT
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef MOZILLA_CLIENT
 #include <cstdlib>
 #include <cstring>
 #include <cstdio>
@@ -194,3 +194,4 @@ const char * Hunzip::getline() {
     strcpy(line + left, linebuf);
     return line;
 }
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

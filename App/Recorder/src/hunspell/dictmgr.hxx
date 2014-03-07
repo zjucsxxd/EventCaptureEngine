@@ -1,4 +1,4 @@
-#ifndef _DICTMGR_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _DICTMGR_HXX_
 #define _DICTMGR_HXX_
 
 #define MAXDICTIONARIES 100
@@ -32,3 +32,4 @@ private:
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

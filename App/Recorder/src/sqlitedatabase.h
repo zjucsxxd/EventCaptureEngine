@@ -1,4 +1,4 @@
-#ifndef SQLITEDATABASE_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef SQLITEDATABASE_H
 #define SQLITEDATABASE_H
 
 #include <QObject>
@@ -97,3 +97,4 @@ private:
 };
 
 #endif // SQLITEDATABASE_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

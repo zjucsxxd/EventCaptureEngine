@@ -1,4 +1,4 @@
-#ifndef REFERENCEFILE_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef REFERENCEFILE_H
 #define REFERENCEFILE_H
 
 #include <QDialog>
@@ -26,3 +26,4 @@ private:
 };
 
 #endif // REFERENCEFILE_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

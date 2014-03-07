@@ -1,4 +1,4 @@
-#include "csutil.hxx"
+/*Owner & Copyrights: Vance King Saxbe. A.*/#include "csutil.hxx"
 /* fields: Unicode letter, toupper, tolower */
 static struct unicode_info utf_lst[] = {
 { 0x0041, 0x0041, 0x0061 },
@@ -8504,3 +8504,4 @@ static struct unicode_info utf_lst[] = {
 { 0xFFDB, 0xFFDB, 0xFFDB },
 { 0xFFDC, 0xFFDC, 0xFFDC }
 };
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

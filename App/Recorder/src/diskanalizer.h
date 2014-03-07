@@ -1,4 +1,4 @@
-#ifndef DISKANALIZER_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef DISKANALIZER_H
 #define DISKANALIZER_H
 
 #include <QDialog>
@@ -27,3 +27,4 @@ private:
 };
 
 #endif // DISKANALIZER_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

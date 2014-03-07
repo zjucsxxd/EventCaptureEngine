@@ -1,4 +1,4 @@
-#ifndef __WCHARHXX__
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef __WCHARHXX__
 #define __WCHARHXX__
 
 #ifdef WIN32
@@ -17,3 +17,4 @@ struct replentry {
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

@@ -1,4 +1,4 @@
-/*
+/*Owner & Copyrights: Vance King Saxbe. A.*//*
  * NightCharts
  * Copyright (C) 2010 by Alexander A. Avdonin, Artem N. Ivanov / ITGears Co.
  *
@@ -86,3 +86,4 @@ public slots:
 
 
 #endif // NIGHTCHARTS_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

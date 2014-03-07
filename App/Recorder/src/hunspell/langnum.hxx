@@ -1,4 +1,4 @@
-#ifndef _LANGNUM_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _LANGNUM_HXX_
 #define _LANGNUM_HXX_
 
 /*
@@ -36,3 +36,4 @@ LANG_xx=999
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

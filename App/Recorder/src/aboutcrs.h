@@ -1,4 +1,4 @@
-#ifndef ABOUTCRS_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef ABOUTCRS_H
 #define ABOUTCRS_H
 
 #include <QDialog>
@@ -19,3 +19,4 @@ private:
 };
 
 #endif // ABOUTCRS_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

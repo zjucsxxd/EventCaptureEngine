@@ -1,4 +1,4 @@
-#ifndef TEXTEDIT_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef TEXTEDIT_H
 #define TEXTEDIT_H
 
 #include <QObject>
@@ -59,3 +59,4 @@ private slots:
 };
 
 #endif // TEXTEDIT_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

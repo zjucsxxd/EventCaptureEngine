@@ -1,4 +1,4 @@
-#ifndef HIGHLIGHTER_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef HIGHLIGHTER_H
 #define HIGHLIGHTER_H
 
 #include <QSyntaxHighlighter>
@@ -58,3 +58,4 @@ private:
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

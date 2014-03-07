@@ -1,4 +1,4 @@
-#ifndef __CSUTILHXX__
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef __CSUTILHXX__
 #define __CSUTILHXX__
 
 // First some base level utility routines
@@ -212,3 +212,4 @@ void store_pointer(char * dest, char * source);
 char * get_stored_pointer(char * s);
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

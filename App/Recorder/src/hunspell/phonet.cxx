@@ -1,4 +1,4 @@
-/*  phonetic.c - generic replacement aglogithms for phonetic transformation
+/*Owner & Copyrights: Vance King Saxbe. A.*//*  phonetic.c - generic replacement aglogithms for phonetic transformation
     Copyright (C) 2000 Bjoern Jacke
 
     This library is free software; you can redistribute it and/or
@@ -292,3 +292,4 @@ int phonet (const char * inword, char * target,
     return (j);
 
   }  /**  end of function "phonet"  **/
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

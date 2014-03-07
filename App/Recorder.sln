@@ -1,4 +1,4 @@
-﻿
+/*Owner & Copyrights: Vance King Saxbe. A.*/﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recorder", "Recorder\Recorder.vcproj", "{C46E3882-5DD4-47F4-8DDD-970C19C1C364}"
@@ -21,3 +21,4 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

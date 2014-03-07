@@ -1,4 +1,4 @@
-#ifndef IMPORTNOTES_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef IMPORTNOTES_H
 #define IMPORTNOTES_H
 
 #include <QDialog>
@@ -44,3 +44,4 @@ private:
 };
 
 #endif // IMPORTNOTES_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

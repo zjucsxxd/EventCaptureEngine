@@ -1,4 +1,4 @@
-#ifndef FILESDETAILS_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef FILESDETAILS_H
 #define FILESDETAILS_H
 
 #include <QDialog>
@@ -36,3 +36,4 @@ private:
 };
 
 #endif // FILESDETAILS_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

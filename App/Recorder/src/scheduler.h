@@ -1,4 +1,4 @@
-#ifndef SCHEDULER_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef SCHEDULER_H
 #define SCHEDULER_H
 
 #include <QDialog>
@@ -28,3 +28,4 @@ private:
 };
 
 #endif // SCHEDULER_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

@@ -1,4 +1,4 @@
-#ifndef _HTYPES_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _HTYPES_HXX_
 #define _HTYPES_HXX_
 
 #define ROTATE_LEN   5
@@ -30,3 +30,4 @@ struct hentry
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

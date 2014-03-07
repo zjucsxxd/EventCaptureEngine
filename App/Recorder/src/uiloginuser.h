@@ -1,4 +1,4 @@
-#ifndef UILOGINUSER_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef UILOGINUSER_H
 #define UILOGINUSER_H
 
 #include <QtGui/QDialog>
@@ -69,4 +69,4 @@ private slots:
 };
 
 #endif // UILOGINUSER_H
-//<history></history>
+//<history></history>/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

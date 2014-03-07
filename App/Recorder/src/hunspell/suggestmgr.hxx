@@ -1,4 +1,4 @@
-#ifndef _SUGGESTMGR_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _SUGGESTMGR_HXX_
 #define _SUGGESTMGR_HXX_
 
 #define MAXSWL 100
@@ -105,3 +105,4 @@ private:
 
 #endif
 
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

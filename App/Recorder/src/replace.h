@@ -1,4 +1,4 @@
-#ifndef REPLACE_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef REPLACE_H
 #define REPLACE_H
 
 #include <QDialog>
@@ -24,3 +24,4 @@ private:
 };
 
 #endif // REPLACE_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

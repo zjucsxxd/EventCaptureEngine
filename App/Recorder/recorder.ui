@@ -1,4 +1,4 @@
-<UI version="4.0" stdSetDef="1" >
+/*Owner & Copyrights: Vance King Saxbe. A.*/<UI version="4.0" stdSetDef="1" >
  <class>RecorderClass</class>
  <widget class="QMainWindow" name="RecorderClass" >
   <property name="objectName" >
@@ -25,3 +25,4 @@
  <resources/>
  <connections/>
 </UI>
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

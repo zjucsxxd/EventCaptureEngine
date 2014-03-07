@@ -1,4 +1,4 @@
-#ifndef LANGUAGEMENU_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef LANGUAGEMENU_H
 #define LANGUAGEMENU_H
 
 #include <QAction>
@@ -25,3 +25,4 @@ private:
 };
 
 #endif // LANGUAGEMENU_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

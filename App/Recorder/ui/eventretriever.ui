@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+/*Owner & Copyrights: Vance King Saxbe. A.*/<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>EventRetrieverClass</class>
  <widget class="QWidget" name="EventRetrieverClass">
@@ -615,3 +615,4 @@
  </resources>
  <connections/>
 </ui>
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

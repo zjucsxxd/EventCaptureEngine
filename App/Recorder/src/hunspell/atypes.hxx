@@ -1,4 +1,4 @@
-#ifndef _ATYPES_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _ATYPES_HXX_
 #define _ATYPES_HXX_
 
 #ifndef HUNSPELL_WARNING
@@ -88,3 +88,4 @@ struct flagentry {
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+/*Owner & Copyrights: Vance King Saxbe. A.*/<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="en_US">
 <context>
@@ -4327,3 +4327,4 @@
     </message>
 </context>
 </TS>
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

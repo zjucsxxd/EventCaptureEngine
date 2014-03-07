@@ -1,4 +1,4 @@
-/* file manager class - read lines of files [filename] OR [filename.hz] */
+/*Owner & Copyrights: Vance King Saxbe. A.*//* file manager class - read lines of files [filename] OR [filename.hz] */
 #ifndef _FILEMGR_HXX_
 #define _FILEMGR_HXX_
 #include "hunzip.hxx"
@@ -17,3 +17,4 @@ public:
     char * getline();
 };
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

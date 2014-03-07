@@ -1,4 +1,4 @@
-#include "license.hunspell"
+/*Owner & Copyrights: Vance King Saxbe. A.*/#include "license.hunspell"
 #include "license.myspell"
 
 #ifndef MOZILLA_CLIENT
@@ -1906,3 +1906,4 @@ int Hunspell_remove(Hunhandle *pHunspell, const char * word) {
 void Hunspell_free_list(Hunhandle *pHunspell, char *** slst, int n) {
         freelist(slst, n);
 }
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

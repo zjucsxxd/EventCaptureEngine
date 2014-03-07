@@ -1,4 +1,4 @@
-/*
+/*Owner & Copyrights: Vance King Saxbe. A.*//*
 *
 * Copyright (c) 2007-2008 Softnotions Technologies Pvt Ltd. All Rights Reserved
 * This software is the confidential and proprietary information of Softnotions Technologies Pvt Ltd.
@@ -4118,3 +4118,4 @@ int AffixMgr::redundant_condition(char ft, char * strip, int stripl, const char 
   }
   return 0;
 }
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

@@ -1,4 +1,4 @@
-<RCC>
+/*Owner & Copyrights: Vance King Saxbe. A.*/<RCC>
     <qresource prefix="/Recorder" >
         <file>Resources/2nd_hover.png</file>
         <file>Resources/2nd_normal.png</file>
@@ -132,3 +132,4 @@
         <file>Resources/xls-icon.png</file>
     </qresource>
 </RCC>
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

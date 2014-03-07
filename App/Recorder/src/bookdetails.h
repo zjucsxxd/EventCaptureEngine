@@ -1,4 +1,4 @@
-#ifndef BOOKDETAILS_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef BOOKDETAILS_H
 #define BOOKDETAILS_H
 
 #include <QDialog>
@@ -37,3 +37,4 @@ private:
 };
 
 #endif // BOOKDETAILS_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

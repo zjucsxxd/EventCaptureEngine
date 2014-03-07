@@ -1,4 +1,4 @@
-#ifndef _HASHMGR_HXX_
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef _HASHMGR_HXX_
 #define _HASHMGR_HXX_
 
 #ifndef MOZILLA_CLIENT
@@ -69,3 +69,4 @@ private:
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

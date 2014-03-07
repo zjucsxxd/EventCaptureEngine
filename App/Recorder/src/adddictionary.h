@@ -1,4 +1,4 @@
-#ifndef ADDDICTIONARY_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef ADDDICTIONARY_H
 #define ADDDICTIONARY_H
 
 #include <QDialog>
@@ -22,3 +22,4 @@ private:
 };
 
 #endif // ADDDICTIONARY_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

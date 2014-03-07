@@ -1,4 +1,4 @@
-#ifndef WRITETODISK_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef WRITETODISK_H
 #define WRITETODISK_H
 
 #include <QDialog>
@@ -83,3 +83,4 @@ private slots:
 };
 
 #endif // WRITETODISK_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

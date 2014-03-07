@@ -1,4 +1,4 @@
-#ifndef CUSTOMDELIGATE_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef CUSTOMDELIGATE_H
 #define CUSTOMDELIGATE_H
 
 #include <QObject>
@@ -72,3 +72,4 @@ private:
 };
 
 #endif // CUSTOMDELIGATE_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

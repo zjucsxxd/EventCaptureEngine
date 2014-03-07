@@ -1,4 +1,4 @@
-#ifndef LOGINUSERSESSION_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef LOGINUSERSESSION_H
 #define LOGINUSERSESSION_H
 
 #include <QString>
@@ -274,4 +274,4 @@ private:
 };
 
 #endif // LOGINUSERSESSION_H
-//<history></history>
+//<history></history>/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

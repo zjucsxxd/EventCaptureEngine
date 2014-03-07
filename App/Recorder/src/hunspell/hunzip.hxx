@@ -1,4 +1,4 @@
-/* hunzip: file decompression for sorted dictionaries with optional encryption,
+/*Owner & Copyrights: Vance King Saxbe. A.*//* hunzip: file decompression for sorted dictionaries with optional encryption,
  * algorithm: prefix-suffix encoding and 16-bit Huffman encoding */
 
 #ifndef _HUNZIP_HXX_
@@ -39,3 +39,4 @@ public:
 };
 
 #endif
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

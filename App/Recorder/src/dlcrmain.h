@@ -1,4 +1,4 @@
-#ifndef DLCRMAIN_H
+/*Owner & Copyrights: Vance King Saxbe. A.*/#ifndef DLCRMAIN_H
 #define DLCRMAIN_H
 
 #include <QMainWindow>
@@ -193,3 +193,4 @@ private slots:
 };
 
 #endif // DLCRMAIN_H
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/

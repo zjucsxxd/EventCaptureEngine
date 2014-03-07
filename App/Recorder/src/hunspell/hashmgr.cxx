@@ -1,4 +1,4 @@
-#include "license.hunspell"
+/*Owner & Copyrights: Vance King Saxbe. A.*/#include "license.hunspell"
 #include "license.myspell"
 
 #ifndef MOZILLA_CLIENT
@@ -915,3 +915,4 @@ char * HashMgr::get_aliasm(int index) {
     HUNSPELL_WARNING(stderr, "error: bad morph. alias index: %d\n", index);
     return NULL;
 }
+/*email to provide support at vancekingsaxbe@powerdominionenterprise.com, businessaffairs@powerdominionenterprise.com, For donations please write to fundraising@powerdominionenterprise.com*/
